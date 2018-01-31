@@ -1,0 +1,15 @@
+{
+	"nom" : "Le Chiberta",
+	"adresse" : {"rue" : 3, "nom_rue" : "Arsène Houssaye", "ville" : "Paris", "code_postal" : 75008},
+	"catégorie" : ["Cuisine Moderne ","Créative"],
+	"prix" : { "min" : 49, "max" : 120},
+	"avis" : 4.2,
+	"Spécialités" : ["Saumon façon ″gravlax″ en tartare panna cotta de brocolis, chantilly iodée",
+		"Turbot des côtes normandes poché à la citronnelle spaghetti à l’encre de seiche, bouillon au lait de coco", 
+		"Noix de ris de veau laqué à la truffe d’automne fricassée de champignons sauvages, purée truffée",
+		"Figues de Solliès au jus de framboise blanc-manger au poivre de Sancho"],
+	"Menu" : ["Sans gluten", "égétalien", "Végétarien"],
+	"description" : "Le Chiberta version Guy Savoy s'est choisi le noir comme couleur, le vin comme symbole et l'inventivité comme fil conducteur. En entrant, on est plongé dans un autre univers, tamisé, calme et feutré. Parfait pour les repas d'affaires comme pour les rencontres plus intimes. L'aménagement intérieur, conçu par l'architecte Jean-Michel Wilmotte, surprend par son minimalisme radical, tout en chic discret et design. La grande originalité du lieu reste indéniablement la cave à vins verticale : de grands crus habillant les murs à la manière d'une bibliothèque ou d'oeuvres d'art. Entre deux alignements de bouteilles, des tableaux modernes et abstraits colorent ponctuellement l'espace. Confortablement installé à table, on apprécie toute l'étendue de la cuisine, supervisée par le patron, qui revisite joliment la tradition. Bon à savoir : le menu du marché est revu chaque semaine, une carte d'huîtres est disponible au comptoir, et la cave, évidemment, est parfaitement composée.",
+	"horraire" :
+
+}
