@@ -5,8 +5,9 @@ var cheerio = require('cheerio');
 
 
 
-url = 'https://restaurant.michelin.fr/restaurants/france/restaurants-1-etoile-michelin/restaurants-2-etoiles-michelin/restaurants-3-etoiles-michelin';
 
+for (var i = 1; i<36; i++){
+url = 'https://restaurant.michelin.fr/restaurants/france/restaurants-1-etoile-michelin/restaurants-2-etoiles-michelin/restaurants-3-etoiles-michelin/page-'+String(i);
 request(url, function(error, response, html){
     if(!error){
 
@@ -44,7 +45,7 @@ request(url, function(error, response, html){
                                 });
 
 
-                                    fs.appendFile('output.json', JSON.stringify(json, null, 4), function(err){
+                                    fs.appendFile('output.json', JSON.stringify(json)+"\r\n", function(err){
                                     console.log('copy in output.json');
 
                                     });
@@ -57,4 +58,4 @@ request(url, function(error, response, html){
 
 }
 
-  }) ;
+  }) ;}
