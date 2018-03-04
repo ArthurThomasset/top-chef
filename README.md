@@ -1,5 +1,18 @@
 # TOP CHEF
 
+To run the code of the server-side you need to install "request" and "cheerio"
+
+	npm install request 
+	npm install cheerio
+	
+To run the code of the client-side you need to install React in client_side\michelin_fourchette_app
+
+	npm install
+	npm start
+	go to localhost:3000
+
+Because the LaFourchette website block me I can't run my script to get all the new deals so I decided to use an old JSON with the deals that I got before my ban (in "outputDeals.json"), however you can still scrapp all the starred restaurants from "michelin.js" and they will be saved in a JSON file called "output".
+
 > Eat well and cheaper than usually
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
