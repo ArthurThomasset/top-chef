@@ -1,0 +1,26 @@
+{
+  "name": "package_michelin",
+  "version": "1.0.0",
+  "description": "> Eat well and cheaper than usually",
+  "main": "michelin.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurThomasset/top-chef.git"
+  },
+  "author": "Arthur Thomasset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurThomasset/top-chef/issues"
+  },
+  "homepage": "https://github.com/ArthurThomasset/top-chef#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
+}
